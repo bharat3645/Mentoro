@@ -1,0 +1,138 @@
+{
+  "buddy_avatars": {
+    "mentor": {
+      "name": "Wise Mentor",
+      "emoji": "👨‍🏫",
+      "description": "A wise teacher with glasses and a thoughtful expression",
+      "color_scheme": ["#4F46E5", "#6366F1", "#8B5CF6"],
+      "animations": {
+        "idle": "gentle_nod",
+        "thinking": "hand_to_chin",
+        "explaining": "pointing_gesture",
+        "encouraging": "thumbs_up"
+      },
+      "expressions": {
+        "neutral": "😊",
+        "happy": "😄",
+        "thinking": "🤔",
+        "proud": "😌"
+      }
+    },
+    "cheerleader": {
+      "name": "Enthusiastic Cheerleader",
+      "emoji": "🎉",
+      "description": "An energetic supporter with pom-poms and bright smile",
+      "color_scheme": ["#EC4899", "#F472B6", "#FBBF24"],
+      "animations": {
+        "idle": "gentle_bounce",
+        "celebrating": "jump_with_poms",
+        "encouraging": "clapping",
+        "excited": "spinning_jump"
+      },
+      "expressions": {
+        "neutral": "😊",
+        "excited": "🤩",
+        "celebrating": "🎉",
+        "encouraging": "💪"
+      }
+    },
+    "chill": {
+      "name": "Chill Friend",
+      "emoji": "😎",
+      "description": "A relaxed companion with sunglasses and casual vibe",
+      "color_scheme": ["#8B5CF6", "#A78BFA", "#C4B5FD"],
+      "animations": {
+        "idle": "slow_sway",
+        "relaxed": "leaning_back",
+        "casual": "hand_wave",
+        "cool": "finger_guns"
+      },
+      "expressions": {
+        "neutral": "😎",
+        "cool": "😏",
+        "relaxed": "😌",
+        "friendly": "🙂"
+      }
+    },
+    "focused": {
+      "name": "Focused Analyst",
+      "emoji": "🤓",
+      "description": "A detail-oriented problem solver with analytical tools",
+      "color_scheme": ["#059669", "#10B981", "#34D399"],
+      "animations": {
+        "idle": "slight_nod",
+        "analyzing": "looking_at_data",
+        "solving": "typing_gesture",
+        "explaining": "drawing_diagram"
+      },
+      "expressions": {
+        "neutral": "🤓",
+        "analyzing": "🧐",
+        "focused": "😤",
+        "satisfied": "😌"
+      }
+    }
+  },
+  "user_avatars": {
+    "default": {
+      "name": "Default Learner",
+      "emoji": "👤",
+      "color_scheme": ["#6B7280", "#9CA3AF", "#D1D5DB"]
+    },
+    "beginner": {
+      "name": "Eager Beginner",
+      "emoji": "🌱",
+      "color_scheme": ["#10B981", "#34D399", "#6EE7B7"]
+    },
+    "intermediate": {
+      "name": "Growing Learner",
+      "emoji": "🌿",
+      "color_scheme": ["#3B82F6", "#60A5FA", "#93C5FD"]
+    },
+    "advanced": {
+      "name": "Skilled Practitioner",
+      "emoji": "🌳",
+      "color_scheme": ["#8B5CF6", "#A78BFA", "#C4B5FD"]
+    },
+    "expert": {
+      "name": "Master Learner",
+      "emoji": "🏆",
+      "color_scheme": ["#F59E0B", "#FBBF24", "#FCD34D"]
+    }
+  },
+  "avatar_customization": {
+    "unlockable_features": [
+      {
+        "name": "Custom Colors",
+        "unlock_level": 3,
+        "description": "Choose your own color scheme"
+      },
+      {
+        "name": "Special Animations",
+        "unlock_level": 5,
+        "description": "Unlock unique celebration animations"
+      },
+      {
+        "name": "Accessories",
+        "unlock_level": 7,
+        "description": "Add hats, glasses, and other accessories"
+      },
+      {
+        "name": "Custom Expressions",
+        "unlock_level": 10,
+        "description": "Create your own emoji expressions"
+      }
+    ],
+    "mood_indicators": {
+      "happy": "😊",
+      "excited": "🤩",
+      "focused": "😤",
+      "tired": "😴",
+      "confused": "😕",
+      "proud": "😌",
+      "determined": "💪",
+      "relaxed": "😎"
+    }
+  }
+}
+

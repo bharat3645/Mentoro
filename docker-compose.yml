@@ -1,0 +1,105 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: learning-buddy-db
+    environment:
+      POSTGRES_DB: learning_buddy
+      POSTGRES_USER: buddy_user
+      POSTGRES_PASSWORD: buddy_pass
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - buddy-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U buddy_user -d learning_buddy"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Go Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: learning-buddy-backend
+    environment:
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USER=buddy_user
+      - DB_PASSWORD=buddy_pass
+      - DB_NAME=learning_buddy
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-your_openai_key_here}
+      - PORT=8080
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - buddy-network
+    volumes:
+      - ./backend:/app
+    restart: unless-stopped
+
+  # Remix Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: learning-buddy-frontend
+    environment:
+      - NODE_ENV=production
+      - API_BASE_URL=http://backend:8080/api/v1
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - buddy-network
+    # volumes:
+    #   - ./frontend:/app
+    #   - /app/node_modules
+    restart: unless-stopped
+
+  # Redis for caching (optional)
+  redis:
+    image: redis:7-alpine
+    container_name: learning-buddy-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - buddy-network
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+  # Adminer for database management (development only)
+  adminer:
+    image: adminer:latest
+    container_name: learning-buddy-adminer
+    ports:
+      - "8081:8080"
+    depends_on:
+      - postgres
+    networks:
+      - buddy-network
+    environment:
+      ADMINER_DEFAULT_SERVER: postgres
+
+networks:
+  buddy-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+

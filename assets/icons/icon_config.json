@@ -1,0 +1,396 @@
+{
+  "icon_categories": {
+    "ui": {
+      "name": "UI Icons",
+      "description": "Interface and navigation icons",
+      "style": "outline"
+    },
+    "features": {
+      "name": "Feature Icons",
+      "description": "Feature-specific icons",
+      "style": "filled"
+    },
+    "achievements": {
+      "name": "Achievement Icons",
+      "description": "Badges and milestone icons",
+      "style": "filled"
+    },
+    "emotions": {
+      "name": "Emotion Icons",
+      "description": "Mood and emotion indicators",
+      "style": "emoji"
+    },
+    "learning": {
+      "name": "Learning Icons",
+      "description": "Education and skill icons",
+      "style": "outline"
+    }
+  },
+  "icons": {
+    "ui": [
+      {
+        "id": "menu",
+        "name": "Menu",
+        "unicode": "☰",
+        "svg": "menu.svg",
+        "description": "Hamburger menu icon"
+      },
+      {
+        "id": "close",
+        "name": "Close",
+        "unicode": "✕",
+        "svg": "close.svg",
+        "description": "Close/cancel icon"
+      },
+      {
+        "id": "settings",
+        "name": "Settings",
+        "unicode": "⚙️",
+        "svg": "settings.svg",
+        "description": "Settings gear icon"
+      },
+      {
+        "id": "profile",
+        "name": "Profile",
+        "unicode": "👤",
+        "svg": "profile.svg",
+        "description": "User profile icon"
+      },
+      {
+        "id": "home",
+        "name": "Home",
+        "unicode": "🏠",
+        "svg": "home.svg",
+        "description": "Home/dashboard icon"
+      },
+      {
+        "id": "search",
+        "name": "Search",
+        "unicode": "🔍",
+        "svg": "search.svg",
+        "description": "Search magnifying glass"
+      },
+      {
+        "id": "notification",
+        "name": "Notification",
+        "unicode": "🔔",
+        "svg": "notification.svg",
+        "description": "Bell notification icon"
+      },
+      {
+        "id": "help",
+        "name": "Help",
+        "unicode": "❓",
+        "svg": "help.svg",
+        "description": "Help question mark"
+      }
+    ],
+    "features": [
+      {
+        "id": "quests",
+        "name": "Quests",
+        "unicode": "🎯",
+        "svg": "quests.svg",
+        "description": "Target for quests"
+      },
+      {
+        "id": "buddy",
+        "name": "AI Buddy",
+        "unicode": "🤖",
+        "svg": "buddy.svg",
+        "description": "Robot for AI buddy"
+      },
+      {
+        "id": "xp",
+        "name": "Experience Points",
+        "unicode": "⭐",
+        "svg": "xp.svg",
+        "description": "Star for XP"
+      },
+      {
+        "id": "level",
+        "name": "Level",
+        "unicode": "📊",
+        "svg": "level.svg",
+        "description": "Chart for level progress"
+      },
+      {
+        "id": "streak",
+        "name": "Streak",
+        "unicode": "🔥",
+        "svg": "streak.svg",
+        "description": "Fire for streak"
+      },
+      {
+        "id": "badges",
+        "name": "Badges",
+        "unicode": "🏆",
+        "svg": "badges.svg",
+        "description": "Trophy for badges"
+      },
+      {
+        "id": "diy",
+        "name": "DIY Projects",
+        "unicode": "🛠️",
+        "svg": "diy.svg",
+        "description": "Tools for DIY"
+      },
+      {
+        "id": "focus",
+        "name": "Focus Mode",
+        "unicode": "🎯",
+        "svg": "focus.svg",
+        "description": "Target for focus"
+      },
+      {
+        "id": "analytics",
+        "name": "Analytics",
+        "unicode": "📈",
+        "svg": "analytics.svg",
+        "description": "Chart for analytics"
+      }
+    ],
+    "achievements": [
+      {
+        "id": "trophy_gold",
+        "name": "Gold Trophy",
+        "unicode": "🏆",
+        "svg": "trophy_gold.svg",
+        "description": "Gold trophy for major achievements"
+      },
+      {
+        "id": "trophy_silver",
+        "name": "Silver Trophy",
+        "unicode": "🥈",
+        "svg": "trophy_silver.svg",
+        "description": "Silver trophy for achievements"
+      },
+      {
+        "id": "trophy_bronze",
+        "name": "Bronze Trophy",
+        "unicode": "🥉",
+        "svg": "trophy_bronze.svg",
+        "description": "Bronze trophy for achievements"
+      },
+      {
+        "id": "medal",
+        "name": "Medal",
+        "unicode": "🏅",
+        "svg": "medal.svg",
+        "description": "Medal for accomplishments"
+      },
+      {
+        "id": "crown",
+        "name": "Crown",
+        "unicode": "👑",
+        "svg": "crown.svg",
+        "description": "Crown for top achievements"
+      },
+      {
+        "id": "gem",
+        "name": "Gem",
+        "unicode": "💎",
+        "svg": "gem.svg",
+        "description": "Gem for rare achievements"
+      },
+      {
+        "id": "star_filled",
+        "name": "Filled Star",
+        "unicode": "⭐",
+        "svg": "star_filled.svg",
+        "description": "Filled star for ratings"
+      },
+      {
+        "id": "star_outline",
+        "name": "Outline Star",
+        "unicode": "☆",
+        "svg": "star_outline.svg",
+        "description": "Outline star for ratings"
+      }
+    ],
+    "emotions": [
+      {
+        "id": "happy",
+        "name": "Happy",
+        "unicode": "😊",
+        "description": "Happy/content emotion"
+      },
+      {
+        "id": "excited",
+        "name": "Excited",
+        "unicode": "🤩",
+        "description": "Excited/enthusiastic emotion"
+      },
+      {
+        "id": "focused",
+        "name": "Focused",
+        "unicode": "😤",
+        "description": "Focused/determined emotion"
+      },
+      {
+        "id": "confused",
+        "name": "Confused",
+        "unicode": "😕",
+        "description": "Confused/uncertain emotion"
+      },
+      {
+        "id": "frustrated",
+        "name": "Frustrated",
+        "unicode": "😤",
+        "description": "Frustrated/annoyed emotion"
+      },
+      {
+        "id": "tired",
+        "name": "Tired",
+        "unicode": "😴",
+        "description": "Tired/sleepy emotion"
+      },
+      {
+        "id": "proud",
+        "name": "Proud",
+        "unicode": "😌",
+        "description": "Proud/satisfied emotion"
+      },
+      {
+        "id": "motivated",
+        "name": "Motivated",
+        "unicode": "💪",
+        "description": "Motivated/energetic emotion"
+      }
+    ],
+    "learning": [
+      {
+        "id": "book",
+        "name": "Book",
+        "unicode": "📚",
+        "svg": "book.svg",
+        "description": "Book for learning"
+      },
+      {
+        "id": "brain",
+        "name": "Brain",
+        "unicode": "🧠",
+        "svg": "brain.svg",
+        "description": "Brain for thinking"
+      },
+      {
+        "id": "lightbulb",
+        "name": "Lightbulb",
+        "unicode": "💡",
+        "svg": "lightbulb.svg",
+        "description": "Lightbulb for ideas"
+      },
+      {
+        "id": "graduation",
+        "name": "Graduation",
+        "unicode": "🎓",
+        "svg": "graduation.svg",
+        "description": "Graduation cap for completion"
+      },
+      {
+        "id": "code",
+        "name": "Code",
+        "unicode": "💻",
+        "svg": "code.svg",
+        "description": "Computer for coding"
+      },
+      {
+        "id": "puzzle",
+        "name": "Puzzle",
+        "unicode": "🧩",
+        "svg": "puzzle.svg",
+        "description": "Puzzle piece for problem solving"
+      },
+      {
+        "id": "target",
+        "name": "Target",
+        "unicode": "🎯",
+        "svg": "target.svg",
+        "description": "Target for goals"
+      },
+      {
+        "id": "rocket",
+        "name": "Rocket",
+        "unicode": "🚀",
+        "svg": "rocket.svg",
+        "description": "Rocket for progress"
+      }
+    ]
+  },
+  "icon_styles": {
+    "outline": {
+      "name": "Outline Style",
+      "stroke_width": 2,
+      "fill": "none",
+      "stroke": "currentColor"
+    },
+    "filled": {
+      "name": "Filled Style",
+      "stroke_width": 0,
+      "fill": "currentColor",
+      "stroke": "none"
+    },
+    "duotone": {
+      "name": "Duotone Style",
+      "stroke_width": 1,
+      "fill": "currentColor",
+      "stroke": "currentColor",
+      "opacity": 0.3
+    }
+  },
+  "icon_sizes": {
+    "xs": {
+      "name": "Extra Small",
+      "size": "12px",
+      "use_case": "Inline text icons"
+    },
+    "sm": {
+      "name": "Small",
+      "size": "16px",
+      "use_case": "Button icons"
+    },
+    "md": {
+      "name": "Medium",
+      "size": "24px",
+      "use_case": "Navigation icons"
+    },
+    "lg": {
+      "name": "Large",
+      "size": "32px",
+      "use_case": "Feature icons"
+    },
+    "xl": {
+      "name": "Extra Large",
+      "size": "48px",
+      "use_case": "Hero icons"
+    },
+    "2xl": {
+      "name": "2X Large",
+      "size": "64px",
+      "use_case": "Avatar icons"
+    }
+  },
+  "accessibility": {
+    "alt_text_required": true,
+    "aria_labels": true,
+    "high_contrast_support": true,
+    "screen_reader_friendly": true
+  },
+  "implementation_notes": {
+    "note": "Icon system configuration for the Learning Buddy platform",
+    "recommendations": [
+      "Use SVG icons for scalability and performance",
+      "Implement icon components with consistent sizing",
+      "Provide fallback text for accessibility",
+      "Use semantic naming for easy identification",
+      "Consider icon loading performance"
+    ],
+    "libraries": [
+      "Heroicons for UI icons",
+      "Lucide React for feature icons",
+      "Custom SVGs for brand-specific icons",
+      "Emoji for emotion indicators"
+    ]
+  }
+}
+

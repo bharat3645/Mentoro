@@ -1,0 +1,326 @@
+{
+  "animation_categories": {
+    "buddy_animations": {
+      "name": "Buddy Animations",
+      "description": "AI buddy character animations",
+      "priority": "high"
+    },
+    "ui_animations": {
+      "name": "UI Animations",
+      "description": "Interface element animations",
+      "priority": "medium"
+    },
+    "achievement_animations": {
+      "name": "Achievement Animations",
+      "description": "Success and milestone animations",
+      "priority": "high"
+    },
+    "loading_animations": {
+      "name": "Loading Animations",
+      "description": "Loading and processing indicators",
+      "priority": "medium"
+    },
+    "decorative_animations": {
+      "name": "Decorative Animations",
+      "description": "Background and decorative elements",
+      "priority": "low"
+    }
+  },
+  "animations": {
+    "buddy_animations": [
+      {
+        "id": "buddy_idle_mentor",
+        "name": "Mentor Idle",
+        "file": "buddy/mentor_idle.json",
+        "duration": 3.0,
+        "loop": true,
+        "description": "Gentle nodding and thoughtful expression"
+      },
+      {
+        "id": "buddy_idle_cheerleader",
+        "name": "Cheerleader Idle",
+        "file": "buddy/cheerleader_idle.json",
+        "duration": 2.5,
+        "loop": true,
+        "description": "Energetic bouncing and smiling"
+      },
+      {
+        "id": "buddy_idle_chill",
+        "name": "Chill Idle",
+        "file": "buddy/chill_idle.json",
+        "duration": 4.0,
+        "loop": true,
+        "description": "Relaxed swaying and casual gestures"
+      },
+      {
+        "id": "buddy_idle_focused",
+        "name": "Focused Idle",
+        "file": "buddy/focused_idle.json",
+        "duration": 3.5,
+        "loop": true,
+        "description": "Analytical posture and slight movements"
+      },
+      {
+        "id": "buddy_speaking",
+        "name": "Buddy Speaking",
+        "file": "buddy/speaking.json",
+        "duration": 2.0,
+        "loop": true,
+        "description": "Animated talking gestures"
+      },
+      {
+        "id": "buddy_thinking",
+        "name": "Buddy Thinking",
+        "file": "buddy/thinking.json",
+        "duration": 3.0,
+        "loop": true,
+        "description": "Hand to chin, contemplative pose"
+      },
+      {
+        "id": "buddy_celebrating",
+        "name": "Buddy Celebrating",
+        "file": "buddy/celebrating.json",
+        "duration": 2.5,
+        "loop": false,
+        "description": "Jumping and cheering animation"
+      },
+      {
+        "id": "buddy_encouraging",
+        "name": "Buddy Encouraging",
+        "file": "buddy/encouraging.json",
+        "duration": 2.0,
+        "loop": false,
+        "description": "Thumbs up and motivational gestures"
+      }
+    ],
+    "ui_animations": [
+      {
+        "id": "button_hover",
+        "name": "Button Hover",
+        "file": "ui/button_hover.json",
+        "duration": 0.3,
+        "loop": false,
+        "description": "Subtle button hover effect"
+      },
+      {
+        "id": "card_flip",
+        "name": "Card Flip",
+        "file": "ui/card_flip.json",
+        "duration": 0.6,
+        "loop": false,
+        "description": "Card reveal animation"
+      },
+      {
+        "id": "progress_bar",
+        "name": "Progress Bar",
+        "file": "ui/progress_bar.json",
+        "duration": 1.0,
+        "loop": false,
+        "description": "Animated progress filling"
+      },
+      {
+        "id": "menu_transition",
+        "name": "Menu Transition",
+        "file": "ui/menu_transition.json",
+        "duration": 0.4,
+        "loop": false,
+        "description": "Smooth menu slide animation"
+      },
+      {
+        "id": "notification_popup",
+        "name": "Notification Popup",
+        "file": "ui/notification_popup.json",
+        "duration": 0.5,
+        "loop": false,
+        "description": "Notification appearance animation"
+      }
+    ],
+    "achievement_animations": [
+      {
+        "id": "level_up_explosion",
+        "name": "Level Up Explosion",
+        "file": "achievements/level_up_explosion.json",
+        "duration": 3.0,
+        "loop": false,
+        "description": "Spectacular level up celebration"
+      },
+      {
+        "id": "badge_unlock",
+        "name": "Badge Unlock",
+        "file": "achievements/badge_unlock.json",
+        "duration": 2.5,
+        "loop": false,
+        "description": "Badge appearing with sparkles"
+      },
+      {
+        "id": "xp_collection",
+        "name": "XP Collection",
+        "file": "achievements/xp_collection.json",
+        "duration": 1.5,
+        "loop": false,
+        "description": "XP points flying to counter"
+      },
+      {
+        "id": "streak_fire",
+        "name": "Streak Fire",
+        "file": "achievements/streak_fire.json",
+        "duration": 2.0,
+        "loop": true,
+        "description": "Animated fire for streak counter"
+      },
+      {
+        "id": "quest_complete_checkmark",
+        "name": "Quest Complete Checkmark",
+        "file": "achievements/quest_complete.json",
+        "duration": 1.0,
+        "loop": false,
+        "description": "Animated checkmark for completed quests"
+      },
+      {
+        "id": "confetti_celebration",
+        "name": "Confetti Celebration",
+        "file": "achievements/confetti.json",
+        "duration": 4.0,
+        "loop": false,
+        "description": "Confetti falling animation"
+      }
+    ],
+    "loading_animations": [
+      {
+        "id": "ai_processing",
+        "name": "AI Processing",
+        "file": "loading/ai_processing.json",
+        "duration": 2.0,
+        "loop": true,
+        "description": "Brain with pulsing neural networks"
+      },
+      {
+        "id": "data_loading",
+        "name": "Data Loading",
+        "file": "loading/data_loading.json",
+        "duration": 1.5,
+        "loop": true,
+        "description": "Spinning data visualization"
+      },
+      {
+        "id": "quest_generating",
+        "name": "Quest Generating",
+        "file": "loading/quest_generating.json",
+        "duration": 2.5,
+        "loop": true,
+        "description": "Magical quest creation animation"
+      },
+      {
+        "id": "buddy_thinking_loader",
+        "name": "Buddy Thinking Loader",
+        "file": "loading/buddy_thinking.json",
+        "duration": 3.0,
+        "loop": true,
+        "description": "Buddy with thought bubbles"
+      }
+    ],
+    "decorative_animations": [
+      {
+        "id": "floating_particles",
+        "name": "Floating Particles",
+        "file": "decorative/floating_particles.json",
+        "duration": 10.0,
+        "loop": true,
+        "description": "Gentle floating particles background"
+      },
+      {
+        "id": "code_rain",
+        "name": "Code Rain",
+        "file": "decorative/code_rain.json",
+        "duration": 8.0,
+        "loop": true,
+        "description": "Matrix-style code falling"
+      },
+      {
+        "id": "learning_tree",
+        "name": "Learning Tree",
+        "file": "decorative/learning_tree.json",
+        "duration": 5.0,
+        "loop": true,
+        "description": "Growing tree representing knowledge"
+      },
+      {
+        "id": "star_field",
+        "name": "Star Field",
+        "file": "decorative/star_field.json",
+        "duration": 15.0,
+        "loop": true,
+        "description": "Twinkling stars background"
+      }
+    ]
+  },
+  "animation_settings": {
+    "enable_animations": true,
+    "reduce_motion": false,
+    "performance_mode": "balanced",
+    "preload_critical": true,
+    "lazy_load_decorative": true
+  },
+  "performance_profiles": {
+    "high_performance": {
+      "name": "High Performance",
+      "description": "All animations enabled, highest quality",
+      "buddy_animations": true,
+      "ui_animations": true,
+      "achievement_animations": true,
+      "decorative_animations": true,
+      "quality": "high"
+    },
+    "balanced": {
+      "name": "Balanced",
+      "description": "Essential animations with good performance",
+      "buddy_animations": true,
+      "ui_animations": true,
+      "achievement_animations": true,
+      "decorative_animations": false,
+      "quality": "medium"
+    },
+    "performance": {
+      "name": "Performance Mode",
+      "description": "Minimal animations for best performance",
+      "buddy_animations": true,
+      "ui_animations": false,
+      "achievement_animations": true,
+      "decorative_animations": false,
+      "quality": "low"
+    },
+    "accessibility": {
+      "name": "Accessibility Mode",
+      "description": "Reduced motion for accessibility",
+      "buddy_animations": false,
+      "ui_animations": false,
+      "achievement_animations": false,
+      "decorative_animations": false,
+      "quality": "static"
+    }
+  },
+  "implementation_notes": {
+    "note": "These are placeholder Lottie animation configurations. To implement:",
+    "steps": [
+      "1. Create actual Lottie JSON files using After Effects + Bodymovin or similar tools",
+      "2. Install lottie-react or lottie-web in the frontend",
+      "3. Implement animation loading and playback system",
+      "4. Add performance monitoring and fallbacks",
+      "5. Ensure accessibility compliance with reduced motion preferences"
+    ],
+    "recommendations": [
+      "Keep animation file sizes under 100KB each",
+      "Use vector-based animations for scalability",
+      "Provide static fallbacks for accessibility",
+      "Implement lazy loading for non-critical animations",
+      "Test performance on low-end devices"
+    ],
+    "tools": [
+      "After Effects + Bodymovin plugin for creation",
+      "LottieFiles for hosting and optimization",
+      "lottie-react for React integration",
+      "Intersection Observer API for lazy loading"
+    ]
+  }
+}
+

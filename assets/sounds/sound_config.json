@@ -1,0 +1,189 @@
+{
+  "sound_categories": {
+    "ui": {
+      "name": "UI Sounds",
+      "description": "Interface interaction sounds",
+      "volume": 0.3
+    },
+    "achievements": {
+      "name": "Achievement Sounds",
+      "description": "Success and milestone sounds",
+      "volume": 0.5
+    },
+    "ambient": {
+      "name": "Ambient Sounds",
+      "description": "Background and mood sounds",
+      "volume": 0.2
+    },
+    "buddy": {
+      "name": "Buddy Sounds",
+      "description": "AI buddy interaction sounds",
+      "volume": 0.4
+    }
+  },
+  "sounds": {
+    "ui": [
+      {
+        "id": "button_click",
+        "name": "Button Click",
+        "file": "ui/button_click.mp3",
+        "duration": 0.1,
+        "description": "Soft click sound for buttons"
+      },
+      {
+        "id": "page_transition",
+        "name": "Page Transition",
+        "file": "ui/page_transition.mp3",
+        "duration": 0.3,
+        "description": "Smooth transition between pages"
+      },
+      {
+        "id": "notification",
+        "name": "Notification",
+        "file": "ui/notification.mp3",
+        "duration": 0.5,
+        "description": "Gentle notification sound"
+      },
+      {
+        "id": "error",
+        "name": "Error",
+        "file": "ui/error.mp3",
+        "duration": 0.4,
+        "description": "Subtle error indication"
+      }
+    ],
+    "achievements": [
+      {
+        "id": "quest_complete",
+        "name": "Quest Complete",
+        "file": "achievements/quest_complete.mp3",
+        "duration": 1.2,
+        "description": "Triumphant quest completion sound"
+      },
+      {
+        "id": "level_up",
+        "name": "Level Up",
+        "file": "achievements/level_up.mp3",
+        "duration": 2.0,
+        "description": "Exciting level up fanfare"
+      },
+      {
+        "id": "badge_earned",
+        "name": "Badge Earned",
+        "file": "achievements/badge_earned.mp3",
+        "duration": 1.5,
+        "description": "Badge unlock celebration"
+      },
+      {
+        "id": "streak_milestone",
+        "name": "Streak Milestone",
+        "file": "achievements/streak_milestone.mp3",
+        "duration": 1.8,
+        "description": "Streak achievement celebration"
+      },
+      {
+        "id": "xp_gain",
+        "name": "XP Gain",
+        "file": "achievements/xp_gain.mp3",
+        "duration": 0.8,
+        "description": "XP collection sound"
+      },
+      {
+        "id": "perfect_score",
+        "name": "Perfect Score",
+        "file": "achievements/perfect_score.mp3",
+        "duration": 2.5,
+        "description": "Perfect completion celebration"
+      }
+    ],
+    "ambient": [
+      {
+        "id": "focus_mode",
+        "name": "Focus Mode",
+        "file": "ambient/focus_mode.mp3",
+        "duration": 300,
+        "loop": true,
+        "description": "Calming background for focus sessions"
+      },
+      {
+        "id": "study_atmosphere",
+        "name": "Study Atmosphere",
+        "file": "ambient/study_atmosphere.mp3",
+        "duration": 600,
+        "loop": true,
+        "description": "Productive study environment sounds"
+      },
+      {
+        "id": "nature_sounds",
+        "name": "Nature Sounds",
+        "file": "ambient/nature_sounds.mp3",
+        "duration": 480,
+        "loop": true,
+        "description": "Relaxing nature background"
+      }
+    ],
+    "buddy": [
+      {
+        "id": "buddy_greeting",
+        "name": "Buddy Greeting",
+        "file": "buddy/greeting.mp3",
+        "duration": 0.6,
+        "description": "Friendly buddy greeting"
+      },
+      {
+        "id": "buddy_encouragement",
+        "name": "Buddy Encouragement",
+        "file": "buddy/encouragement.mp3",
+        "duration": 0.8,
+        "description": "Motivational buddy sound"
+      },
+      {
+        "id": "buddy_thinking",
+        "name": "Buddy Thinking",
+        "file": "buddy/thinking.mp3",
+        "duration": 1.0,
+        "description": "Buddy processing/thinking sound"
+      },
+      {
+        "id": "buddy_celebration",
+        "name": "Buddy Celebration",
+        "file": "buddy/celebration.mp3",
+        "duration": 1.5,
+        "description": "Buddy celebrating with you"
+      }
+    ]
+  },
+  "sound_settings": {
+    "master_volume": 0.7,
+    "enable_sounds": true,
+    "enable_ambient": true,
+    "focus_mode_sounds": true,
+    "achievement_sounds": true,
+    "buddy_sounds": true,
+    "ui_sounds": true
+  },
+  "accessibility": {
+    "visual_indicators": true,
+    "sound_descriptions": true,
+    "volume_controls": true,
+    "mute_option": true
+  },
+  "placeholder_notes": {
+    "note": "These are placeholder sound configurations. In a real implementation, you would:",
+    "steps": [
+      "1. Create or source actual audio files in MP3/WAV format",
+      "2. Implement audio playback system in the frontend",
+      "3. Add volume controls and user preferences",
+      "4. Ensure accessibility compliance",
+      "5. Test audio performance across devices"
+    ],
+    "recommendations": [
+      "Use royalty-free sounds or create custom audio",
+      "Keep file sizes small for web performance",
+      "Provide visual alternatives for accessibility",
+      "Allow users to customize or disable sounds",
+      "Test audio on various devices and browsers"
+    ]
+  }
+}
+

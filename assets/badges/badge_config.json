@@ -1,0 +1,281 @@
+{
+  "badge_categories": {
+    "achievement": {
+      "name": "Achievement Badges",
+      "description": "Earned through completing specific milestones",
+      "color": "#F59E0B"
+    },
+    "streak": {
+      "name": "Streak Badges",
+      "description": "Earned through consistent daily learning",
+      "color": "#EF4444"
+    },
+    "skill": {
+      "name": "Skill Badges",
+      "description": "Earned through mastering specific skills",
+      "color": "#3B82F6"
+    },
+    "social": {
+      "name": "Social Badges",
+      "description": "Earned through community interaction",
+      "color": "#10B981"
+    },
+    "special": {
+      "name": "Special Badges",
+      "description": "Limited edition and event badges",
+      "color": "#8B5CF6"
+    }
+  },
+  "badges": [
+    {
+      "id": "first_steps",
+      "name": "First Steps",
+      "description": "Completed your first learning session",
+      "icon": "👶",
+      "category": "achievement",
+      "rarity": "common",
+      "xp_reward": 25,
+      "requirements": {
+        "sessions_completed": 1
+      }
+    },
+    {
+      "id": "code_warrior",
+      "name": "Code Warrior",
+      "description": "Fixed 10 bugs in your code",
+      "icon": "⚔️",
+      "category": "achievement",
+      "rarity": "common",
+      "xp_reward": 100,
+      "requirements": {
+        "bugs_fixed": 10
+      }
+    },
+    {
+      "id": "focus_master",
+      "name": "Focus Master",
+      "description": "Completed 50 focus sessions",
+      "icon": "🎯",
+      "category": "achievement",
+      "rarity": "rare",
+      "xp_reward": 200,
+      "requirements": {
+        "focus_sessions": 50
+      }
+    },
+    {
+      "id": "streak_champion",
+      "name": "Streak Champion",
+      "description": "Maintained a 30-day learning streak",
+      "icon": "🔥",
+      "category": "streak",
+      "rarity": "epic",
+      "xp_reward": 500,
+      "requirements": {
+        "max_streak": 30
+      }
+    },
+    {
+      "id": "bug_hunter",
+      "name": "Bug Hunter",
+      "description": "Found and reported 5 bugs",
+      "icon": "🐛",
+      "category": "achievement",
+      "rarity": "common",
+      "xp_reward": 75,
+      "requirements": {
+        "bugs_reported": 5
+      }
+    },
+    {
+      "id": "level_achiever",
+      "name": "Level Achiever",
+      "description": "Reached level 10",
+      "icon": "⭐",
+      "category": "achievement",
+      "rarity": "rare",
+      "xp_reward": 300,
+      "requirements": {
+        "level": 10
+      }
+    },
+    {
+      "id": "xp_collector",
+      "name": "XP Collector",
+      "description": "Earned 5000 total XP",
+      "icon": "💎",
+      "category": "achievement",
+      "rarity": "rare",
+      "xp_reward": 250,
+      "requirements": {
+        "total_xp": 5000
+      }
+    },
+    {
+      "id": "quest_completer",
+      "name": "Quest Completer",
+      "description": "Completed 25 quests",
+      "icon": "🏆",
+      "category": "achievement",
+      "rarity": "epic",
+      "xp_reward": 400,
+      "requirements": {
+        "quests_completed": 25
+      }
+    },
+    {
+      "id": "learning_machine",
+      "name": "Learning Machine",
+      "description": "Learned 15 new concepts",
+      "icon": "🧠",
+      "category": "skill",
+      "rarity": "rare",
+      "xp_reward": 350,
+      "requirements": {
+        "concepts_learned": 15
+      }
+    },
+    {
+      "id": "early_bird",
+      "name": "Early Bird",
+      "description": "Started learning before 8 AM for 10 days",
+      "icon": "🌅",
+      "category": "achievement",
+      "rarity": "common",
+      "xp_reward": 50,
+      "requirements": {
+        "early_sessions": 10
+      }
+    },
+    {
+      "id": "night_owl",
+      "name": "Night Owl",
+      "description": "Learned after 10 PM for 10 days",
+      "icon": "🦉",
+      "category": "achievement",
+      "rarity": "common",
+      "xp_reward": 50,
+      "requirements": {
+        "night_sessions": 10
+      }
+    },
+    {
+      "id": "social_learner",
+      "name": "Social Learner",
+      "description": "Helped 5 other learners",
+      "icon": "🤝",
+      "category": "social",
+      "rarity": "common",
+      "xp_reward": 150,
+      "requirements": {
+        "helped_users": 5
+      }
+    },
+    {
+      "id": "perfectionist",
+      "name": "Perfectionist",
+      "description": "Completed 10 quests with 100% accuracy",
+      "icon": "💯",
+      "category": "achievement",
+      "rarity": "epic",
+      "xp_reward": 300,
+      "requirements": {
+        "perfect_quests": 10
+      }
+    },
+    {
+      "id": "speed_demon",
+      "name": "Speed Demon",
+      "description": "Completed 5 quests in under 10 minutes each",
+      "icon": "⚡",
+      "category": "achievement",
+      "rarity": "rare",
+      "xp_reward": 200,
+      "requirements": {
+        "fast_completions": 5
+      }
+    },
+    {
+      "id": "comeback_kid",
+      "name": "Comeback Kid",
+      "description": "Returned to learning after a 7-day break",
+      "icon": "🔄",
+      "category": "special",
+      "rarity": "rare",
+      "xp_reward": 100,
+      "requirements": {
+        "comeback_after_break": 7
+      }
+    },
+    {
+      "id": "mentor_graduate",
+      "name": "Mentor Graduate",
+      "description": "Unlocked all buddy personalities",
+      "icon": "🎓",
+      "category": "achievement",
+      "rarity": "legendary",
+      "xp_reward": 1000,
+      "requirements": {
+        "personalities_unlocked": 4
+      }
+    },
+    {
+      "id": "diy_creator",
+      "name": "DIY Creator",
+      "description": "Created and completed 3 DIY projects",
+      "icon": "🛠️",
+      "category": "skill",
+      "rarity": "rare",
+      "xp_reward": 300,
+      "requirements": {
+        "diy_projects_completed": 3
+      }
+    },
+    {
+      "id": "feedback_champion",
+      "name": "Feedback Champion",
+      "description": "Provided feedback on 20 learning experiences",
+      "icon": "📝",
+      "category": "social",
+      "rarity": "common",
+      "xp_reward": 100,
+      "requirements": {
+        "feedback_given": 20
+      }
+    }
+  ],
+  "rarity_levels": {
+    "common": {
+      "name": "Common",
+      "color": "#6B7280",
+      "glow": false,
+      "animation": "none"
+    },
+    "rare": {
+      "name": "Rare",
+      "color": "#3B82F6",
+      "glow": true,
+      "animation": "pulse"
+    },
+    "epic": {
+      "name": "Epic",
+      "color": "#8B5CF6",
+      "glow": true,
+      "animation": "glow"
+    },
+    "legendary": {
+      "name": "Legendary",
+      "color": "#F59E0B",
+      "glow": true,
+      "animation": "rainbow"
+    }
+  },
+  "badge_display": {
+    "grid_size": "4x3",
+    "show_progress": true,
+    "show_requirements": true,
+    "allow_sharing": true,
+    "unlock_animations": true
+  }
+}
+
